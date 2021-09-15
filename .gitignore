@@ -41,5 +41,4 @@ sysinfo.txt
 *.unitypackage
 
 # Extra
-*.DS_Store
 .DS_Store
