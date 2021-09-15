@@ -10,10 +10,4 @@ public class ThrottleFramerate : MonoBehaviour
     {
         Application.targetFrameRate = this.targetFramerate;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
