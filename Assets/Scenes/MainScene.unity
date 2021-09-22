@@ -281,6 +281,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1449618992}
+--- !u!1 &97610148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8193602142898497022, guid: fb2549dae81314558a5a1d01441ec97c, type: 3}
+  m_PrefabInstance: {fileID: 8193602143133936440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &97610149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97610148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 071430fe212e5494080115252ec3949d, type: 2}
 --- !u!4 &197068184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8521782605648139794, guid: d144ba75c96324de3ab3c054f0e5d6fd, type: 3}
@@ -2865,6 +2886,14 @@ PrefabInstance:
     - target: {fileID: 8193602142898497010, guid: fb2549dae81314558a5a1d01441ec97c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193602142898497012, guid: fb2549dae81314558a5a1d01441ec97c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193602142898497013, guid: fb2549dae81314558a5a1d01441ec97c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"JumpForce","value":{"$content":16,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8193602142898497022, guid: fb2549dae81314558a5a1d01441ec97c, type: 3}
       propertyPath: m_Name
